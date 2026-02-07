@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Premium Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 class="title">Premium Image Gallery</h1>
+
+<div class="filters">
+<button onclick="filterSelection('all')">All</button>
+<button onclick="filterSelection('nature')">Nature</button>
+<button onclick="filterSelection('city')">City</button>
+<button onclick="filterSelection('animals')">Animals</button>
+<button onclick="filterSelection('humans')">Humans</button>
+<button onclick="filterSelection('monuments')">Monuments</button>
+</div>
+
+<div class="gallery">
+
+<!-- Nature -->
+<div class="card nature">
+<img src="https://picsum.photos/id/1015/400/300" loading="lazy" onclick="openViewer(this)">
+<p onclick="openViewer(this.previousElementSibling)">Mountain</p>
+</div>
+
+<div class="card nature">
+<img src="https://picsum.photos/id/1016/400/300" loading="lazy" onclick="openViewer(this)">
+<p onclick="openViewer(this.previousElementSibling)">Forest</p>
+</div>
+
+<!-- City -->
+<div class="card city">
+<img src="https://picsum.photos/id/1011/400/300" loading="lazy" onclick="openViewer(this)">
+<p onclick="openViewer(this.previousElementSibling)">City Night</p>
+</div>
+
+<div class="card city">
+<img src="https://picsum.photos/id/1003/400/300" loading="lazy" onclick="openViewer(this)">
+<p onclick="openViewer(this.previousElementSibling)">Buildings</p>
+</div>
+
+<!-- Animals -->
+<div class="card animals">
+<img src="https://picsum.photos/id/1025/400/300" loading="lazy" onclick="openViewer(this)">
+<p onclick="openViewer(this.previousElementSibling)">Animal</p>
+</div>
+
+<div class="card animals">
+<img src="https://picsum.photos/id/237/400/300" loading="lazy" onclick="openViewer(this)">
+<p onclick="openViewer(this.previousElementSibling)">Dog</p>
+</div>
+
+<!-- Humans -->
+<div class="card humans">
+<img src="https://picsum.photos/id/1005/400/300" loading="lazy" onclick="openViewer(this)">
+<p onclick="openViewer(this.previousElementSibling)">Portrait</p>
+</div>
+
+<div class="card humans">
+<img src="https://picsum.photos/id/1006/400/300" loading="lazy" onclick="openViewer(this)">
+<p onclick="openViewer(this.previousElementSibling)">People</p>
+</div>
+
+<!-- Monuments -->
+<div class="card monuments">
+<img src="https://picsum.photos/id/1043/400/300" loading="lazy" onclick="openViewer(this)">
+<p onclick="openViewer(this.previousElementSibling)">Monument</p>
+</div>
+
+<div class="card monuments">
+<img src="https://picsum.photos/id/1050/400/300" loading="lazy" onclick="openViewer(this)">
+<p onclick="openViewer(this.previousElementSibling)">Architecture</p>
+</div>
+
+</div>
+
+<div id="viewer" class="viewer">
+<span class="close" onclick="closeViewer()">×</span>
+<img id="viewerImg">
+<div class="nav">
+<button onclick="prevImage()">◀</button>
+<button onclick="nextImage()">▶</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
