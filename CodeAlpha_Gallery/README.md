@@ -1,6 +1,6 @@
 # CodeAlpha Gallery
 
-[Live Demo](https://vedantb3008.github.io/CodeAlpha_Tasks/CodeAlpha_Gallery/)
+Live Demo : https://vedantb3008.github.io/CodeAlpha_Tasks/CodeAlpha_Gallery/
 
 A premium image gallery project showcasing nature, cityscapes, animals, humans, and monuments. Built with HTML, CSS, and JavaScript, it provides a clean, responsive, and visually appealing interface.
 

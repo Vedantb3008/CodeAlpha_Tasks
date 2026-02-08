@@ -1,6 +1,6 @@
 # CodeAlpha Calculator
 
-[Live Demo](https://Vedantb3008.github.io/CodeAlpha_Tasks/CodeAlpha_calculator/)
+Live Demo : https://Vedantb3008.github.io/CodeAlpha_Tasks/CodeAlpha_calculator/
 
 This is a basic calculator project made using HTML, CSS and JavaScript.
 
